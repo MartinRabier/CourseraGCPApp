@@ -2,7 +2,7 @@ from flask import Flask
 from flask import jsonify
 app = Flask(__name__)
 
-@app.rout('/')
+@app.route('/')
 def hello():
   """return a friendly HTTP greeting"""
   print("I am inside hello world")
